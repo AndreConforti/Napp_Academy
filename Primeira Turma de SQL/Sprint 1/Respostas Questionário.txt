@@ -1,0 +1,100 @@
+
+1 -  [('Laura Castro', '127.803.954-60 ', 33, 'Soldador')]
+
+2 -  [('Sr. Vicente Nogueira', '315.798.246-09 ', 72, 'Engenheiro de alimentos')]
+
+3 - [('João Guilherme das Neves', 21, 'Kite-surfer')]
+
+4 - [('325.768.140-26 ', 'Gabriela Moreira', 'Cientista')]
+
+5 - [('Sarah Fogaça', '784.120.659-30 ', 48, 'Arquiteto')]
+
+6 - [('Noah da Mata', 67, 'Dançarino', datetime.date(2021, 2, 23))]
+
+7 - [('Stephany Azevedo', 32, 'Embalador')]
+
+8 - [('João Gabriel Peixoto', 24, 'Motorista')]
+
+9 - [('Sr. Anthony Costa', 41, 'Lutador de kung fu')]
+
+10 - [('Ana Carolina Caldeira', 43, 'Lanterneiro')]
+
+11 - Caio das Neves | 623.041.758-80 | 38
+
+12 - Helena Costa | 051.946.238-60 | 62
+
+13 - Leandro Cunha | 863.527.104-17 | 67
+
+14 - Sra. Mirella Ramos | 752.964.081-01 | 24
+
+15 - Ana Vitória Peixoto | 538.719.402-32 | 66
+
+16 - Amanda Farias | 127.834.059-97 | Profissional de relações públicas
+
+17 - Erick Oliveira | 029.186.754-58 | Delegado
+
+18 - Sr. Nicolas Ferreira | 524.967.138-19 | Porteiro
+
+19 - Sra. Luana Fogaça | 985.312.407-60 | Biotecnólogo
+
+20 - Raul da Rosa | 637.412.598-37 | Arqueólogo
+
+21 - Dra. Júlia Peixoto | 938.745.201-88
+
+22 - Erick Nascimento | 793.450.682-10 | 2021-02-28
+
+23 - Raul Barbosa | 279.541.386-82 | 2021-01-12
+
+24 - Gabriel Nunes | 754.901.836-75 | 2021-01-25
+
+25 - Rafaela Azevedo | 754.130.296-16
+
+26 - 20
+
+27 - 25
+
+28 - 16
+
+29 - 17
+
+30 - 19
+
+31 - 19
+
+32 - 79
+
+33 - 81
+
+34 - 85
+
+35 - 984
+
+36 - 182
+
+37 - 59
+
+38 - Rodrigo Silva e Ana Beatriz Silva
+
+39 - 324.756.109-99
+
+40 - 873.564.102-90
+
+41 - SELECT * FROM pessoas;
+
+42 - SELECT nome, cpf, idade FROM pessoas WHERE idade >= 50;
+
+43 - SELECT nome, cpf, idade FROM pessoas WHERE idade > 50;
+
+44 - SELECT nome, cpf, idade FROM pessoas WHERE nome LIKE '%Fernandes';
+
+45 - SELECT nome, cpf, idade FROM pessoas WHERE idade BETWEEN 50 AND 54;
+
+46 - SELECT nome, cpf, idade FROM pessoas WHERE idade BETWEEN 50 AND 54 AND profissao = 'Jangadeiro';
+
+47 - SELECT nome, cpf, idade FROM pessoas WHERE idade BETWEEN 50 AND 54 AND profissao = 'Jangadeiro' AND nome LIKE 'L%';
+
+48 - SELECT nome, idade, profissao FROM pessoas WHERE profissao LIKE 'Web%';
+
+49 - SELECT nome, idade, profissao FROM pessoas WHERE profissao LIKE 'Web%' AND idade > 30;
+
+50 - SELECT nome, idade, profissao FROM pessoas WHERE profissao LIKE 'Web%' AND idade > 30 AND nome LIKE 'A%';
