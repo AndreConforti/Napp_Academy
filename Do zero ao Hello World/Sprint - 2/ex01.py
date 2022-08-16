@@ -1,6 +1,9 @@
-fruta = ('caqui', 'maça', 'abacaxi', 'pera')
-restaurante = (('aroz', 'feijão', 'bife'), ('alface', 'tomate'), ('sorvete', 'bolo'))
+from random import randint
 
-coquetel = fruta + restaurante
+numeros = []
 
-print(coquetel[4][1])
+for i in range(5):
+    numeros.append(randint(0, 10))
+
+numeros.sort()
+print(numeros)
