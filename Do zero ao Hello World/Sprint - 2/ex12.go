@@ -24,6 +24,8 @@ func main() {
 	ages := [] int{}
 	heights := [] float64{}
 	count := 0
+	var avg float64
+	avg = 0
 
 	for i := 0; i < 30; i ++ {
 		age := randIntegers(8, 17)
@@ -32,6 +34,21 @@ func main() {
 		ages = append(ages, age)
 		heights = append(heights, height...)
 	}
+
+	for _, i := range heights{
+		avg += i
+	}
+
+	avg = avg / float64(len(heights))
+	
+	for c, i := range (ages){
+		if i > 13 {
+			if heights[c] < avg{
+				count += 1
+			}
+		}
+	}
+	fmt.Println(avg)
 	fmt.Println(ages)
 	fmt.Println(heights)
 	fmt.Println(count)
