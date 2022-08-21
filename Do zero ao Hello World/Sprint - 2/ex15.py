@@ -29,6 +29,6 @@ numeros.reverse()
 print(f'''c - Valores na ordem inversa..............: {numeros}
 d - Soma dos valores......................: {sum(numeros)}
 e - Média dos valores.....................: {avg(numeros)}
-f - Quantidade de valores acima da média..: {len(list(filter(lambda x: x > (sum(numeros) / len(numeros)), numeros)))}
+f - Quantidade de valores acima da média..: {len(list(filter(lambda x: x > avg(numeros), numeros)))}
 g - Quantidade de valores abaixo de 7.....: {len(list(filter(lambda x: x < 7, numeros)))}
 ''')

@@ -2,16 +2,14 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 
 func main() {
 	
-	t := time.Now()
-	fmt.Printf("%T\n", t)
-	
-	fmt.Println(t.Hour(), t.Minute())
+	nota := 9
+
+	if nota <= 5 {fmt.Println("Deu bom")} else {fmt.Println("Deu ruim")}
 
 }
 

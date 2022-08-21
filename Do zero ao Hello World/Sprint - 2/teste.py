@@ -1,7 +1,3 @@
-tabelaBrasileiro = ['Palmeiras', 'Atlético', 'São Paulo', 'Santos', 'Internacional',  'Goiás', 'Botafogo', 'Corinthians', 'Flamengo', 'Athletico-PR', 'Bahia', 'Ceará SC', 'Fluminense', 'Fortaleza', 'Cruzeiro',  'Chapecoense', 'Avaí', 'CSA', 'Grêmio', 'Vasco da Gama']
+nota = 5
 
-nova_lista = tabelaBrasileiro.copy()
-
-nova_lista[2] = 'Ituano'
-
-print(nova_lista)
+print("Deu bom" if nota <= 5 else "Deu ruim")

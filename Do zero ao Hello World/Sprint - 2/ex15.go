@@ -37,15 +37,23 @@ func main() {
 	}
 	fmt.Println("c - Valores na ordem inversa..............: ", numbers)
 	sum := 0
-	for i := range numbers {
-		sum += i
+	for _, v := range numbers {
+		sum += v
 	}
 	fmt.Println("d - Soma dos valores......................: ", sum)
 	avg := sum / len(numbers)
 	fmt.Println("e - Média dos valores.....................: ", avg)
 	upToAvg := 0
-	for i := range numbers {}
-	fmt.Println("f - Quantidade de valores acima da média..: ", len(numbers))
-	fmt.Println("g - Quantidade de valores abaixo de 7.....: ", len(numbers))
+	down7 := 0
+	for _, v := range numbers {
+		if v > avg{
+			upToAvg += 1
+		}
+		if v < 7{
+			down7 += 1
+		}
+	}
+	fmt.Println("f - Quantidade de valores acima da média..: ", upToAvg)
+	fmt.Println("g - Quantidade de valores abaixo de 7.....: ", down7)
 
 }
