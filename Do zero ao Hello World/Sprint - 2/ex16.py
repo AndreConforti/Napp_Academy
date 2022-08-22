@@ -17,7 +17,6 @@ Desafio: Crie ma fórmula para chegar na posição da lista a partir do salário
 '''
 from itertools import count
 
-
 intervalos = ['a', 200, 'b', 300, 'c', 400, 'd', 500, 'e', 600, 'f', 700, 'g', 800, 'h', 900, 'i', 1000]
 salarios = []
 while True:
