@@ -1,0 +1,11 @@
+1 - 200
+2 - 25
+3 - 100
+4 - 800
+5 - 199	1631021120126
+6 -  SELECT nota_id as nota, count(*) as total FROM vendas group BY nota_id ORDER BY total DESC;
+7 - SELECT p.ean_13 AS produto, v.quantidade AS quantidade , p.preco AS preco FROM vendas v, produto
+p WHERE p.id = v.produto_id ORDER BY 2 DESC
+8 - Apresenta o número da nota fiscal, quantidade, código EAN-13 do produto e preço da compra feita com a
+nota fiscal número um, ordenando-se pelo quarto campo em ordem crescente.
+9 - 
