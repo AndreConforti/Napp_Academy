@@ -8,4 +8,6 @@
 p WHERE p.id = v.produto_id ORDER BY 2 DESC
 8 - Apresenta o número da nota fiscal, quantidade, código EAN-13 do produto e preço da compra feita com a
 nota fiscal número um, ordenando-se pelo quarto campo em ordem crescente.
-9 - 
+9 - SELECT concat( c.nome ,' ', c.cpf ) AS pessoa FROM cliente c 
+10 - 21, 88, 13, 93, 117
+11 - (Dias – ME, 18.87), (da Cunha, 5.7)
