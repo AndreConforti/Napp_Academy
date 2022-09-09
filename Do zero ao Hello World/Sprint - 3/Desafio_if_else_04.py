@@ -13,49 +13,37 @@ Escolha um número de acordo com as opções:
 
 Sua escolha: '''))
 
-if pc == 1:
-    computador = 'Pedra'
-elif pc == 2:
-    computador = 'Papel'
-else:
-    computador = 'Tesoura'
-
 if escolha <= 0 or escolha > 3:
     print('\nOpção inválida!!!')
 else:
     if escolha == 1:
-        jogador = 'Pedra'
-    elif escolha == 2:
-        jogador = 'Papel'
-    elif escolha == 3:
-        jogador = 'Tesoura'
-
-    print(f'\nVocê \033[1;34m{jogador}\033[m X \033[1;31m{computador} \033[mComputador\n\033[0;32m')
-
-    if jogador == 'Pedra':
-        if computador == 'Pedra':
+        if pc == 1:
+            print(f'\nVocê \033[1;34m"Pedra"\033[m X \033[1;31m"Pedra" \033[mComputador\n\033[0;32m')
             print('JOGO EMPATADO')    
-        elif computador == 'Papel':
+        elif pc == 2:
+            print(f'\nVocê \033[1;34m"Pedra"\033[m X \033[1;31m"Papel" \033[mComputador\n\033[0;32m')
             print('COMPUTADOR GANHOU')
         else:
+            print(f'\nVocê \033[1;34m"Pedra"\033[m X \033[1;31m"Tesoura" \033[mComputador\n\033[0;32m')
             print('VOCÊ GANHOU')
-    elif jogador == 'Papel':
-        if computador == 'Pedra':
+    elif escolha == 2:
+        if pc == 1:
+            print(f'\nVocê \033[1;34m"Papel"\033[m X \033[1;31m"Pedra" \033[mComputador\n\033[0;32m')
             print('VOCÊ GANHOU')    
-        elif computador == 'Papel':
+        elif pc == 2:
+            print(f'\nVocê \033[1;34m"Papel"\033[m X \033[1;31m"Papel" \033[mComputador\n\033[0;32m')
             print('JOGO EMPATADO')
         else:
+            print(f'\nVocê \033[1;34m"Papel"\033[m X \033[1;31m"Tesoura" \033[mComputador\n\033[0;32m')
             print('COMPUTADOR GANHOU')
     else:
-        if computador == 'Pedra':
+        if pc == 1:
+            print(f'\nVocê \033[1;34m"Tesoura"\033[m X \033[1;31m"Pedra" \033[mComputador\n\033[0;32m')
             print('COMPUTADOR GANHOU')    
-        elif computador == 'Papel':
+        elif pc == 2:
+            print(f'\nVocê \033[1;34m"Tesoura"\033[m X \033[1;31m"Papel" \033[mComputador\n\033[0;32m')
             print('VOCÊ GANHOU')    
         else:
+            print(f'\nVocê \033[1;34m"Tesoura"\033[m X \033[1;31m"Tesoura" \033[mComputador\n\033[0;32m')
             print('JOGO EMPATADO')
     print('\n\033[m')
-
-
-
-
-
