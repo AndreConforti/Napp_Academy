@@ -15,7 +15,7 @@ def buscar_cpf(lista, cpf):
 def buscar_email(lista, email):
     pass
 
-def buscar_dia_mes_ano(lista, dia='18',mes='09',ano='2022'):
+def buscar_dia_mes_ano(lista, dia='22',mes='03',ano='2022'):
     sublista = []
     for registro in lista:
         data = registro[3][:10]
@@ -66,5 +66,5 @@ if __name__ == "__main__":
     buscar_sobrenome(lista)
 
 
-resp = buscar_dia_mes_ano(lista, dia='23',mes='07',ano='2022')
+resp = buscar_dia_mes_ano(lista)
 print(resp)
