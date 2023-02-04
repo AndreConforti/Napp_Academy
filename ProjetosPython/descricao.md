@@ -21,14 +21,10 @@ Como primeira tarefa, devemos identificar as entidades e suas principais funçõ
     - Hora_inicio_domingo
     - hora_fim_domingo
     - tempo (1 ou 3 horas)
-    - Agenda {data : hora} Dicionário contendo a agenda com as datas e horários
-        terca : 09
-        terca : 10
-        terca : 11
-        terca : 12
-
-    - se o tempo for 3 horas pega 
-            terca : 9
-            terca : 10
-            terca : 11
+    - Horarios disponíveis {data : horarios} Dicionário contendo a agenda com as datas e horários
+        
+    - se o tempo for 3 horas pegamos 
+        {'2023-02-03': ['08:00', '09:00', '10:00']}
+        {'2023-02-04': ['09:00', '14:00']}
         por exemplo
+
